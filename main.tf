@@ -53,7 +53,7 @@ module "records" {
 
   records = [
     {
-      name    = "jenkins"
+      name    = "jenkins"  # jenkins.mohansai.online
       type    = "A"
       ttl     = 1
       records = [
